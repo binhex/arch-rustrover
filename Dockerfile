@@ -1,6 +1,6 @@
 FROM binhex/arch-int-gui:latest
-LABEL org.opencontainers.image.authors = "binhex"
-LABEL org.opencontainers.image.source = "https://github.com/binhex/arch-rustrover"
+LABEL org.opencontainers.image.authors="binhex"
+LABEL org.opencontainers.image.source="https://github.com/binhex/arch-rustrover"
 
 # release tag name from buildx arg
 ARG RELEASETAG
