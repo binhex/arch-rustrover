@@ -32,6 +32,7 @@ docker run -d \
     -e VNC_PASSWORD=<password for web ui> \
     -e ENABLE_STARTUP_SCRIPTS=<yes|no> \
     -e UMASK=<umask for created files> \
+    -e WEBUI_PORT=<port> \
     -e PUID=<uid for user> \
     -e PGID=<gid for user> \
     binhex/arch-rustrover
